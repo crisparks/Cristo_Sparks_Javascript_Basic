@@ -1,0 +1,77 @@
+/*Background*/
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+/*text styling*/
+a{
+    color: aquamarine;
+}
+#info{
+    color: white;
+    text-decoration: none;
+}
+span{
+    color: blue;
+}
+p{
+    color: white;
+}
+h1{
+    color:white;
+}
+h2{
+    color: white;
+}
+ul{
+    color: white;
+}
+
+/*Wrapper CSS*/
+#header, #navigation, #main_content, #link{
+    border-radius: 25px;
+}
+
+#wrapper{
+    width: 950px;
+    background-color: rgb(5, 62, 88);
+    margin: 0px auto;
+    padding: 10px;
+}
+   
+#header{
+    min-height: 40px;
+    width: 910px;
+    background-color: rgb(248, 71, 71);
+    display: inline-block;
+    margin: 0px 0px 20px 0px;
+    padding: 20px 20px 20px 20px;
+}
+   
+#navigation{
+    min-height: 210px;
+    width: 160px;
+    background-color: blue;
+    display: inline-block;
+    margin: 0px 20px 0px 0px;
+    padding: 10px 20px;
+    vertical-align: top;
+}
+
+#main_content{
+    min-height: 400px;
+    width: 680px;
+    background-color: black;
+    display: inline-block;
+    overflow: auto;
+    margin: 0px 0px 14px 0px;
+    padding: 20px;
+}
+#link{
+    min-height: 20px;
+    width: 890px;
+    background-color: silver;
+    display: inline-block;
+    margin: 0px;
+    padding: 20px 30px;
+}
